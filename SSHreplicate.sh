@@ -272,7 +272,7 @@ EOF
 printf "Unique private keys discovered: %s\n" "${#root_ssh_keys[@]}"
 printf "Unique shell accounts accessed: %s\n" "${#root_ssh_hostnames_dests[@]}"
 printf "Unique systems accessed: %s\n" "${#root_ssh_hosts[@]}"
-printf "\nNeed a list of servers accessed? Run one of these commands:\n\n"
+printf "\nlist all servers accessed\n\n"
 cat <<"EOF"
 grep -oE "[a-z_][a-z0-9_-]{0,31}@[0-9\.]*$" output.log  | sort | uniq
 grep -oE "[a-z_][a-z0-9_-]{0,31}@\([0-9\.:]*\)$" output.log  | sort | uniq
