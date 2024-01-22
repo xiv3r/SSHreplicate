@@ -277,9 +277,7 @@ cat <<"EOF"
 grep -oE "[a-z_][a-z0-9_-]{0,31}@[0-9\.]*$" output.log  | sort | uniq
 grep -oE "[a-z_][a-z0-9_-]{0,31}@\([0-9\.:]*\)$" output.log  | sort | uniq
 EOF
-printf -- "-- https://joshua.hu/ --\n"
-printf -- "-- https://github.com/MegaManSec/SSH-Snake --\n"
-printf "\nThanks for playing!\n"
+printf -- ".\n"
 }
 check_commands() {
 local required_commands
