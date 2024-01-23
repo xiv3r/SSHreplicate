@@ -1,13 +1,14 @@
-<h1 align="center"> SSHreplicate</h1>
-<h1 align="center"> Automatically replicate ssh exploit across multiple host in the network
-</h1>
+<h1 align="center">SSHreplicate</h1>
 
-- Using Raw
+<p align="center"> Automatically replicate ssh exploit across multiple host in the network
+</p>
 
-      curl https://raw.githubusercontent.com/xiv3r/SSHreplicate/main/SSHreplicate.sh | bash
+- Direct Execution from Raw:
+
+      curl https://raw.githubusercontent.com/xiv3r/SSHreplicate/main/SSHreplicate.sh | sudo bash
 
 
-- From Source:
+- Install From Source:
 
       git clone https://github.com/xiv3r/SSHreplicate.git
 
